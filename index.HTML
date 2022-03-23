@@ -109,8 +109,12 @@
     </div>
 
     <!-- chat -->
-    <form method="post" name="meu-form" action="tst.php" style="border-radius: 5px;" class="text-white m-5 bg-primary bg-opacity-25">
+    <form method="post" name="meu-form" action="send-mail.php" style="border-radius: 5px;" class="text-white m-5 bg-primary bg-opacity-25">
         <h5 class="ms-1">Caso tenha alguma dica ou reclamação nos encaminhe por favor:</h5>
+        <div class="m-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
         <div class="m-3">
             <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
             <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">

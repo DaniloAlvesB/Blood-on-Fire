@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <title>Document</title>
+    <title>BOF</title>
 </head>
 <body>
     <div class="p-4 bg-primary text-white">
@@ -109,11 +109,12 @@
     </div>
 
     <!-- chat -->
-    <form method="post" name="meu-form" action="send-mail.php" style="border-radius: 5px;" class="text-white m-5 bg-primary bg-opacity-25">
+    <form method="post" name="meu-form" action="https://formsubmit.co/contato.bof.123@gmail.com" style="border-radius: 5px;" class="text-white m-5 bg-primary bg-opacity-25">
+        <input type="hidden" name="_captcha" value="false">
         <h5 class="ms-1">Caso tenha alguma dica ou reclamação nos encaminhe por favor:</h5>
         <div class="m-3">
             <label for="exampleFormControlInput1" class="form-label">Nome</label>
-            <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
         <div class="m-3">
             <label for="exampleFormControlInput1" class="form-label">Endereço de e-mail</label>
@@ -124,6 +125,9 @@
             <textarea name="mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
           <div style="text-align: right;" class="m-3">
+
+            <input type="hidden" name="_next" value="https://daniloalvesb.github.io/Blood-on-Fire/obrigado.html">
+
             <button value="Enviar" class="btn btn-success mt-3">Enviar</button>
           </div> 
     </form>
